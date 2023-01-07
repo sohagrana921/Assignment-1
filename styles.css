@@ -13,15 +13,12 @@
     background-size: cover;
     position: relative;
 }
-
 .banner-section {
     position: absolute;
     top: 28%;
     right: 18%;
-    /* width: 458px; */
     text-align: right;
 }
-
 .banner-title {
     width: 525px;
     height: 228px;
@@ -30,7 +27,6 @@
     color: black;
     padding-bottom: 24px;
 }
-
 .banner-description {
     font-size: 18px;
     font-weight: 400px;
@@ -39,45 +35,35 @@
     padding-top: 40px;
     padding-left: 26%;
     padding-bottom: 40px;
-
 }
-
 .primary-btn {
     padding: 30px 50px;
     background: red;
     border-radius: 10px;
     color: #ffffff;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 25px;
     border: none;
     text-align: right;
-
 }
-
-/* image section */
+/* woman image section */
 .image-section {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     background-color: #fdfbfb;
-    k;
 }
-
 .person-image {
     width: 569px;
     height: 600px;
     margin-left: 200px;
     padding-top: 130px;
-
-
 }
-
 .failure-section {
     text-align: left;
     margin-left: 20%;
     padding-top: 240px;
 }
-
 .failure-title {
     width: auto;
     height: auto;
@@ -85,21 +71,17 @@
     font-weight: 700px;
     padding: 25px;
 }
-
 .failure-description {
     height: auto;
     width: auto;
     font-size: 25px;
     padding: 25px;
-
 }
-
 ul li {
     list-style: none;
     font-size: 20px
 }
-
-ul li:before {
+.five-reasons ul li:before{
     content: '✓';
     color: green;
     padding-right: 5px;
@@ -112,24 +94,19 @@ ul li:before {
     font-weight: 700;
     padding-top: 250px;
     padding-bottom: 50px;
-
 }
-
 .my-plans {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     padding-bottom: 150px;
 }
-
 .plans {
     text-align: center;
 }
-
 .plans h3 {
     font-size: 35px;
 }
-
 .plans p {
     font-size: 30px;
 }
@@ -137,20 +114,100 @@ ul li:before {
 /* watch-image-section */
 .watch-image-section{
     background-image: url(images/watch.png);
-    background-position: 50%;
-    width: 1140px;
-height: 300px;
-padding-right: 50%;
-background-repeat: no-repeat;
-padding-bottom: 300px;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+  background-blend-mode: multiply;
+  background-size: cover;
+  min-height: 31vh;
+  position: relative;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
 }
 .watch-image-content{
-    padding-top: 200px;
+    padding-top: 50px;
      justify-content: right;
-   margin-left: 60%;
+   margin-left: 5%;
 }
 .watch-image-content h3{
     font-size: 45px;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+    color: rgb(175, 173, 173);
 }
+
+footer {
+    background: #151414;
+    color: #ffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30vh;
+    padding: 100px 0;
+    margin-top: 130px;
+  }
+  .left_footer_content {
+    width: 466px;
+  }
+  .left_footer_content h2 {
+    font-weight: 700;
+  
+    font-size: 45px;
+  
+    padding-bottom: 16px;
+  }
+  .left_footer_content p {
+    line-height: 26px;
+  font-size: 25px;
+    padding-bottom: 24px;
+  }
+   .left_footer_content ul {
+    list-style: none;
+  }
+  .left_footer_content ul li {
+    padding-bottom: 16px;
+  } 
+  .icon{
+    padding-top: 8px;
+    display: flex;
+    
+  }
+  .social_icon ul{
+    font-size: 30px;
+   display: flex;
+    margin-left: 5px;
+    justify-content:space-evenly;
+    list-style: none;
+    
+  }
+  .right_footer_content {
+    width: 260px;
+  }
+  .right_footer_content h4 {
+    font-weight: 700;
+  
+    font-size: 35px;
+  
+    padding-bottom: 31px;
+  }
+  .right_footer_content input {
+    padding: 21px 130px 21px 15px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #ffff;
+  }
+  .right_footer_content input::placeholder {
+    color: #ffff;
+    text-align: left;
+  }
+  .right_footer_content .primary_btn {
+    background: #005fac;
+    color: #ffff;
+    margin-top: 16px;
+  }
+  .email-write{
+    padding-bottom: 30px;
+  }
+  .mail-number{
+    list-style: none;
+  }
