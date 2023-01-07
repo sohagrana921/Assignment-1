@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/* banner section */
+.banner {
+    background-image: url(images/banner/banner1.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-section {
+    position: absolute;
+    top: 28%;
+    right: 18%;
+    /* width: 458px; */
+    text-align: right;
+}
+
+.banner-title {
+    width: 525px;
+    height: 228px;
+    font-weight: 700;
+    font-size: 80px;
+    color: black;
+    padding-bottom: 24px;
+}
+
+.banner-description {
+    font-size: 18px;
+    font-weight: 400px;
+    width: 400px;
+    height: auto;
+    padding-top: 40px;
+    padding-left: 26%;
+    padding-bottom: 40px;
+
+}
+
+.primary-btn {
+    padding: 30px 50px;
+    background: red;
+    border-radius: 10px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    text-align: right;
+
+}
+
+/* image section */
+.image-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fdfbfb;
+    k;
+}
+
+.person-image {
+    width: 569px;
+    height: 600px;
+    margin-left: 200px;
+    padding-top: 130px;
+
+
+}
+
+.failure-section {
+    text-align: left;
+    margin-left: 20%;
+    padding-top: 240px;
+}
+
+.failure-title {
+    width: auto;
+    height: auto;
+    font-size: 80px;
+    font-weight: 700px;
+    padding: 25px;
+}
+
+.failure-description {
+    height: auto;
+    width: auto;
+    font-size: 25px;
+    padding: 25px;
+
+}
+
+ul li {
+    list-style: none;
+    font-size: 20px
+}
+
+ul li:before {
+    content: '✓';
+    color: green;
+    padding-right: 5px;
+}
+
+/* my plans section */
+.plan-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 250px;
+    padding-bottom: 50px;
+
+}
+
+.my-plans {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-bottom: 150px;
+}
+
+.plans {
+    text-align: center;
+}
+
+.plans h3 {
+    font-size: 35px;
+}
+
+.plans p {
+    font-size: 30px;
+}
+
+/* watch-image-section */
+.watch-image-section{
+    background-image: url(images/watch.png);
+    background-position: 50%;
+    width: 1140px;
+height: 300px;
+padding-right: 50%;
+background-repeat: no-repeat;
+padding-bottom: 300px;
+}
+.watch-image-content{
+    padding-top: 200px;
+     justify-content: right;
+   margin-left: 60%;
+}
+.watch-image-content h3{
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
