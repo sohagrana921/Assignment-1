@@ -3,6 +3,7 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
+/* nav section */
 .nav-container{
   display:flex;
   justify-content: space-evenly;
@@ -20,16 +21,8 @@
   font-size: 22px;
   font-weight: 700;
   text-decoration: none;
-  cursor: pointer;
-  
+  cursor: pointer;  
 }
-
-
-
-
-
-
-
 /* banner section */
 .banner {
   background-image: url(images/banner/banner1.png);
@@ -39,14 +32,12 @@
   background-size: cover;
   position: relative;
 }
-
 .banner-section {
   position: absolute;
   top: 28%;
   right: 18%;
   text-align: right;
 }
-
 .banner-title {
   width: 525px;
   height: 228px;
@@ -55,7 +46,6 @@
   color: black;
   padding-bottom: 24px;
 }
-
 .banner-description {
   font-size: 18px;
   font-weight: 400px;
@@ -65,7 +55,6 @@
   padding-left: 26%;
   padding-bottom: 40px;
 }
-
 .primary-btn {
   padding: 30px 50px;
   background: red;
